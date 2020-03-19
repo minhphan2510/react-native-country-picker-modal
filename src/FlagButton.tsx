@@ -85,7 +85,7 @@ const FlagWithSomething = memo(
             {...{ withEmoji, countryCode, withFlagButton, flagSize: flagSize! }}
           />
         ) : (
-          <FlagText>{placeholder}</FlagText>
+          <FlagText style={{ color: '#868686' }}>{placeholder}</FlagText>
         )}
 
         {withCountryNameButton && countryName ? (
